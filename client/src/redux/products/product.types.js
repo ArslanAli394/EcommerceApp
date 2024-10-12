@@ -1,0 +1,8 @@
+const productTypes = {
+  GET_PRODUCT: "GET_PRODUCT",
+  CREATE_PRODUCT: "CREATE_PRODUCT",
+  UPDATE_PRODUCT: "UPDATE_PRODUCT",
+  DELETE_PRODUCT: "DELETE_PRODUCT",
+};
+
+export default productTypes;

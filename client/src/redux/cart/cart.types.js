@@ -1,0 +1,7 @@
+const cartType ={
+    SET_HIDDEN_CART:'SET_HIDDEN_CART',
+    ADD_ITEM:'ADD_ITEM',
+    CLEAR_ITEM_FROM_CART:'CLEAR_ITEM_FROM_CART',
+    REMOVE_ITEM_FROM_CART:'REMOVE_ITEM_FROM_CART',
+}
+export default cartType;

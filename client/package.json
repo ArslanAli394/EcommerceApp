@@ -1,0 +1,63 @@
+{
+  "name": "ecommerce-work",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:5000",
+  "homepage": "",
+  "dependencies": {
+    "@craco/craco": "^6.3.0",
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
+    "@headlessui/react": "^1.5.0",
+    "@heroicons/react": "^1.0.5",
+    "@mui/material": "^5.13.6",
+    "axios": "^0.26.0",
+    "gh-pages": "^3.2.3",
+    "immer": "^10.0.2",
+    "pure-react-carousel": "^1.28.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-easy-swipe": "^0.0.22",
+    "react-icons": "^4.3.1",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-infinite-scroller": "^1.2.6",
+    "react-lazy-load": "^4.0.1",
+    "react-redux": "^7.2.5",
+    "react-router-dom": "^5.3.0",
+    "redux": "^4.1.1",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.3.0",
+    "reselect": "^4.1.5",
+    "use-debounce": "^8.0.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.8",
+    "postcss": "^7.0.3",
+    "react-scripts": "^4.0.3",
+    "sass": "^1.54.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
+  },
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "test": "craco test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
